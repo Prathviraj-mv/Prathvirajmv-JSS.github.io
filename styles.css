@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+  }
+  
+  .flex-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+
+  }
+  
+  .name {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    flex: 60%;
+    font-family: 'Pacifico';
+    font-size: 70px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom:200px;
+    font-weight: bold;
+  }
+  d1:hover{
+    color: red;
+    opacity: 0.8;
+  }
+  .description{
+    color: rgb(81, 79, 79);
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+n1:hover{
+    opacity: 0.5;
+}
+  
+  .image {
+    background-color:black;
+    padding: 10px;
+    flex: 40%;
+    justify-content: left;
+    opacity: 0.8;
+    padding-top: 20px;
+  }
+  img{
+    width: 80%;
+  }
+  .education{
+    background-color: #414040;
+    flex: 100%;
+    padding: 20px;
+    padding-top: 100px;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    
+  }
+  e1:hover{    
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+  }
+  .education_content{
+
+    background-color: #414040;
+    padding: 20px;
+    padding-top: 50px;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 20px;
+    opacity: 0.8;
+    height: 400px;
+    padding-top: 80px;
+    
+  }
+ .education_content ol{
+    color:white;
+    text-align: center;
+    background-color: #414040;
+}
+
+ .education_content li{
+    background-color: #414040;
+    text-align: left;
+  }
+  .hobbies{
+    background-color: #000000;
+    flex: 100%;
+    padding: 20px;
+    padding-top: 50px;
+    height: 400px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    
+    
+  }
+  ho:hover{    
+    opacity: 0.5;
+  }
+  .hobbies_content{
+
+    background-color: #000000;
+    padding: 20px;
+    padding-top: 50px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 20px;
+    opacity: 0.8;
+    
+        
+  }
+ .hobbies_content ol{
+    color:white;
+    text-align: center;
+    background-color: #000000;
+}
+
+ .hobbies_content li{
+    background-color: #000000;
+    text-align: left;
+  }
+
+  .ambition{
+    background-color: #414040;
+    flex: 100%;
+    padding: 20px;
+    padding-top: 50px;
+    height: 200px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: small;
+    }
+    .ambition p{
+        font-size: 20px;
+        text-align: center;
+        background-color: #414040;
+        color:white;
+    }
+    .contact{
+        background-color: #000000;
+        flex: 100%;
+        padding: 20px;
+        padding-top: 50px;
+        height: 150px;
+        margin: 0px;
+        color: rgb(255, 255, 255);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-linkedin {
+    background: #464646;
+    color: white}
+  .fa-linkedin:hover {
+        background: #007bff;
+        color: white;
+  }
+  .fa-twitter {
+    background: #464646;
+    color: white;
+  }
+  .fa-twitter:hover {
+    background: #079edf;
+    color: white;
+  }
+  .fa-facebook {
+    background: #464646;
+    color: white;
+  }
+  .fa-facebook:hover {
+    background: #003965;
+    color: white;
+  }
+  .fa-instagram {
+    background: #464646;
+    color: white;
+  }
+  .fa-instagram:hover{
+    background: #d7146c;
+    color: white;
+  }
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      padding-bottom: 20px;
+    }
+    .name{
+        font-size: 50px;
+        padding-bottom: 50px;
+        padding-top: 0px;
+    }
+    img{
+        width: 60%;
+        padding-bottom: 40px;
+    }
+
+
+
+  }
