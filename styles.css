@@ -21,7 +21,7 @@
     background: #ffffff;
     transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
    
-    animation: spinner-fzua35 1s calc(var(--delay) * 1s) infinite ease;
+    animation: spinner-fzua35 1s calc(var(--delay) * 1s) 10 ease ;
     margin: 0px;
 
   }
@@ -253,13 +253,13 @@
   .ambition{
     background-color: #414040;
     flex: 100%;
-    padding: 20px;
+    padding: 50px;
     padding-top: 100px;
     margin: 0px;
     color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    font-size: small;
+    font-size: 15px;
     height: 400px;
 
     }
